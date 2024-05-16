@@ -25,7 +25,7 @@
 4. Animation/Responsive Design:<br>
    (1) Hovering over my photo enlarges it by 10% and moving the cursor away shrinks it back to its normal size.<br>
 6. Big Flex:<br>
-   (1) The email address pops out when user put their mouse on the Email sign for 2 seconds<br>
+   (1) Progressive disclosure - The Experience and Project page will show slowly from top to bottom.<br>
 
 ## Dependency
 1. make sure install react <br>

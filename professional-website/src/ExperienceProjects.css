@@ -1,13 +1,14 @@
 .experience-projects {
-    padding: 20px;
-  }
-  
-  .project {
-    margin-bottom: 20px;
-  }
-  
-  .project h3 {
-    margin: 10px 0;
-    color: #0056b3;
-  }
-  
+  padding: 20px;
+}
+
+.project {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.project:nth-child(n) {
+  opacity: 1;
+  transform: translateY(0);
+}
