@@ -1,0 +1,28 @@
+.navigation-bar {
+    width: 100%;
+    background: #0056b3;
+    padding: 10px 0;
+  }
+  
+  .navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation-bar li {
+    margin: 0 15px;
+  }
+  
+  .navigation-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .navigation-bar a:hover {
+    text-decoration: underline;
+  }
+  
